@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  font-family:arial;
+  background:rgba(218, 138, 33, 0.288);
+  }
+ 
+  .card{
+    border-radius:10px;
+    background:white;
+    
+    width:800px;
+    border:1px solid #e3e6ea;
+   margin:auto;
+    margin-top:10%
+  }
+  .header{
+    width:90%;
+    color:#5E6989;
+    font-size:22px;
+    padding:0 5%;
+  }
+  .header h2{
+    color:rgba(0, 0, 0, 0.664)
+  }
+  .header h2 span{
+    color:crimson
+  }
+
+  .product{
+    display:flex;
+    width:90%;
+    align-items:center;
+    justify-content:space-between;
+    padding:2% 5%;
+    border-top:1px solid  #e3e6ea;
+    
+    
+  }
+  .quant{
+    display:flex;
+    justify-content:space-between;
+    width:90px;
+    
+  }
+  .pu{display:none;}
+  .op{
+    color:#AAB8C2;
+    display:flex;
+    justify-content:space-between;
+    width:50px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+  }
+  img{background:#F7F7F9;
+
+  }
+  .name{
+    font-size:18px;
+    margin-bottom:10px;
+    color:#455c74;
+  }
+  .color{
+    color:darkgray;
+    font-weight:10;
+  }
+  .plus,.minus{
+    color:#AAB8C2;
+    font-size:28px;
+    background:#E1E8EE;
+  width:25px;
+    height:25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:5px;
+  cursor:pointer;
+  }
+  .price{
+    font-weight:100;
+    font-size:20px;
+    color:gray;
+    
+  }
+  .red{
+    color:red
+}
